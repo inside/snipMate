@@ -11,8 +11,8 @@ let s:did_snips_mappings = 1
 "snor <silent> <s-tab> <esc>i<right><c-r>=BackwardsSnippet()<cr>
 "ino <silent> <c-r><tab> <c-r>=ShowAvailableSnips()<cr>
 
-ino <c-j> <c-r>=TriggerSnippet()<cr>
-snor <c-j> <esc>i<right><c-r>=TriggerSnippet()<cr>
+ino <c-J> <c-r>=TriggerSnippet()<cr>
+snor <c-J> <esc>i<right><c-r>=TriggerSnippet()<cr>
 
 " The default mappings for these are annoying & sometimes break snipMate.
 " You can change them back if you want, I've put them here for convenience.
